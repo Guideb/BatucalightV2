@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fab_action_add_machine" type="id" />
+    <item name="fab_action_add_groupe" type="id" />
+    <item name="fab_action_test_all" type="id" />
+    <item name="fab_action_change_color" type="id" />
+
+    <item name="fab_action_chore_add_chore" type="id"/>
+    <item name="fab_action_chore_add_bloc" type="id"/>
+    <item name="fab_action_chore_change_groupe_effet" type="id"/>
+
+</resources>

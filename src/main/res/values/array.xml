@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="effet">
+        <item>Simple</item>
+        <item>Double</item>
+        <item>Stroboscope</item>
+        <item>Arc en ciel</item>
+        <item>Fade</item>
+        <item>Aucun</item>
+    </string-array>
+
+</resources>

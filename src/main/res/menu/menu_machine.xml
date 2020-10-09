@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_menu_live"
+        android:icon="@drawable/ic_wb_incandescent_black_24dp"
+        android:onClick="onMenuLive"
+        android:orderInCategory="0"
+        android:title="@string/menu_live"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_menu_machine"
+        android:orderInCategory="0"
+        android:title="@string/menu_machines"
+        android:icon="@drawable/ic_settings_cell_black_24dp"
+        android:onClick="onMenuMachine"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_menu_palette"
+        android:orderInCategory="0"
+        android:title="@string/menu_color"
+        android:icon="@drawable/ic_palette_black_24dp"
+        android:onClick="onMenuColor"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_menu_chore_creation"
+        android:orderInCategory="0"
+        android:title="@string/menu_creation"
+        android:icon="@drawable/ic_createb_24px"
+        android:onClick="onMenuChoreCreation"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_menu_chore_live"
+        android:orderInCategory="0"
+        android:title="@string/menu_creation"
+        android:icon="@drawable/ic_audiotrackb_24px"
+        android:onClick="onMenuChoreLive"
+        app:showAsAction="ifRoom" />
+
+</menu>
